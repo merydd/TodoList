@@ -1,0 +1,31 @@
+.completedtasks {
+    display: flex;
+    flex-direction: row;
+
+    position: -webkit-sticky;
+    position: sticky;
+
+    margin-top: 32px;
+    margin-left: 224px;
+    margin-right: 400px;
+
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+
+    padding: 6px 64px 6px 72px;
+    background-color: #6e7687a5;
+    border-radius: 16px;
+}
+
+.completedtasklist {
+    margin-top: 18px;
+    margin-left: 200px;
+    margin-right: 350px;
+
+    padding: 2px 18px;
+
+    border: 1px solid gray;
+    border-radius: 6px;
+}

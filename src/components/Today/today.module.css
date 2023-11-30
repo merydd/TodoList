@@ -1,0 +1,68 @@
+.Wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 96dvw;
+}
+
+.todayText {
+    display: flex;
+    flex-direction: row;
+
+    position: -webkit-sticky;
+    position: sticky;
+
+    margin-top: 54px;
+    margin-left: 180px;
+    margin-right: 150px;
+
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+
+    padding: 4px 82px 6px 80px;
+    background-color: #6e7687a5;
+    border-radius: 16px;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+
+    gap: 12px;
+
+    border-radius: 16px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.input {
+    padding: 2px 84px;
+    border-radius: 12px;
+    border: 1px solid gray;
+}
+
+.button {
+    position: -webkit-sticky;
+    position: sticky;
+
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.today-task-list {
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    padding: 4px 24px;
+
+    border: 1px solid gray;
+    border-radius: 6px;
+
+    margin-top: 22px;
+    margin-left: 228px;
+    margin-right: 210px;
+}

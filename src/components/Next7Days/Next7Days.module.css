@@ -1,0 +1,48 @@
+.next7daysWrapper {
+    display: flex;
+    flex-direction: row;
+
+    position: -webkit-sticky;
+    position: sticky;
+
+    margin-top: 54px;
+    margin-left: 308px;
+    margin-right: 228px;
+
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+
+    padding: 6px 72px 6px 90px;
+    background-color: #6e7687a5;
+    border-radius: 16px;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+
+    gap: 12px;
+
+    border-radius: 16px;
+    margin-left: 270px;
+    margin-top: 60px;
+}
+
+.input {
+    padding: 2px 80px;
+    border-radius: 12px;
+    border: 1px solid gray;
+}
+
+.button {
+    position: -webkit-sticky;
+    position: sticky;
+
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: 1px solid gray; 
+    cursor: pointer;
+}

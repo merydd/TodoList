@@ -1,0 +1,20 @@
+body {
+  /* background-color: #96B6C5; */
+  /* background-color: #ADC4CE; */
+  /* background-color: #6e7687a5; en son buydu */
+  background-color: whitesmoke;
+  align-items: center;
+  max-width: fit-content;
+}
+
+button {
+  border: 1px solid #325b9e;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  width: 96dvw;
+}

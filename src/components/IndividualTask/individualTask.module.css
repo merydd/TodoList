@@ -1,0 +1,39 @@
+individualtask.css                                                                                                                  .task-list {
+    text-align: center;
+    flex-direction: column;
+    width: fit-content;
+  
+    margin-top: 18px;
+    }
+    
+    .task-box-item {
+    padding: 4px 6px;
+    
+    
+    border-radius: 6px;
+    
+    cursor: pointer;
+    
+    display: flex;
+    flex-direction: row;
+    
+    gap: 4px;
+  
+    text-align: center;
+    font-size: small;
+  }
+    
+  .checkbox {
+    width: 25px;
+    height: 25px;
+  }
+    
+  .task-text {
+    padding: 6px 2px 2px 0px;
+    
+    border: 1px solid gray;
+    background-color: whitesmoke;
+    
+    min-width: 354px;
+    max-width: 354px;
+  }
