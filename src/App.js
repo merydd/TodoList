@@ -16,7 +16,6 @@ function App() {
 
   const [completedTaskList, setCompletedTaskList] = useState([])
 
-
   return (
     <Router>
       <Routes>

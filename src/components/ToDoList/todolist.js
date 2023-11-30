@@ -78,7 +78,7 @@ function ToDoList({ setCompletedTaskList, setDate }) {
             type="button"
             onClick={buttonClickHandler}
           >
-            Add
+            Add Task
           </button>
         </div>
 
